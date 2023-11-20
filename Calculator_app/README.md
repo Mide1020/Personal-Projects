@@ -1,0 +1,1 @@
+this is a mini calculator app, created by me, using javascript, html and css
