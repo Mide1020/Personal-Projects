@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equip="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8255a1af57.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images2/geeks-2894621_1280.jpg" class="logo" height="100px" width="5px">
+                <ul id="sidemenu">                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-ban" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer / Graphics Designer</p>
+                <div class="video-text">
+                    <h1>Hello<br> My name is <span>Isaac jatto</span><br>You are welcome to my website</h1>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------About me----------> 
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="images2/back 2.jpg" width="1020%" height="100%">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <br>
+                <p>Hi, I'm Isaac jatto, a passionate and creative web developer<br>
+                     with a deep love for turning ideas into functional,<br> visually appealing, 
+                     and user-friendly websites.<br> With few years of experience in the field,
+                     I'm dedicated to delivering top-notch web solutions that not only meet
+                      but exceed expectations.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">My Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links"onclick="opentab('goals')">Goals</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>MySql</li>
+                            <li>Python</li>
+                            <li>Flask</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>Course: </span> Computer Science<br></li>
+                        <li><span>Year:</span> 2010-2015<br></li>
+                        <li><span>Level:</span>BSc<br></li>
+                        <li><span>School:</span>Federal University of Abuja<br></li><br><br>
+                        <li><span>Course:</span>Web Developemnt<br></li>
+                        <li><span>Year:</span>2023<br></li>
+                        <li><span>School:</span>ALX Africa<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="goals">
+                        <ul>
+                        <li>Countinously improve my web development skills</li>
+                        <li>To create more visually compelling and effective communication</li>
+                        <li>Collaborate with other developers and designers.</li>
+                        <li>Stay updated with the latest web development trends and technologies.</li>
+                        </ul>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Services--------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Front-End development</h2>
+                    <p>Crafting responsive and captivating user interfaces is my forte.
+                    I work with HTML, CSS, and JavaScript to create visually 
+                     stunning and highly interactive websites.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Back-End Developemnt</h2>
+                    <p>Building the engine behind the scenes,
+                     I utilize languages like [e.g., JavaScript, Python]
+                    to ensure that websites run smoothly and efficiently.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h2>Graphics Design</h2>
+                    <p>I'm adept at handling both front-end and back-end
+                     development, ensuring that every aspect of a website,
+                     from design to functionality, is seamless.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------Projects------>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">  My Aproach</h1>
+            <p>I'm excited to connect and collaborate on exciting web projects.
+             Whether you're a business,<br>
+         looking to establish a strong online presence,<br>
+            or an individual with a passion project,
+             let's turn your ideas into web realities.</p>
+            <div class="work-list">
+                <div class="work">
+            <img src="images2/first work.jpg">
+            <div class="layer">
+                <h3>Laptop Graphics Design</h3>
+                <p>This is a visual communication of Hp
+                 Elitebook X360 1030 for sale.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+                </div>
+                <div class="work">
+                    <img src="images2/Second work.jpg" height="400px">
+                    <div class="layer">
+                        <h3>Discount sales</h3>
+                        <p>A visual representation for eazy best 
+                            100 days official opening Discount
+                             sales
+                            </p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            <div class="work">
+                <img src="images2/3rd work.jpg">
+                <div class="layer">
+                    <h3>Dell latitude</h3>
+                    <p>A visual graphics design of salles
+                        of DELL latitude 3380
+                         specialisation
+                        </p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+               </div>
+                 </div>
+                 <a href="https://github.com/Jatzee001" target="_blank" class="btn">See More on GitHub</a>
+
+        </div>
+        <div>
+            
+</div>
+    </div>
+
+<!--------Contact information-------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <P><i class="fa-solid fa-square-envelope"></i><a href="jatto_i">jatto_i@yahoo.com</a></P>
+          <p><i class="fa-solid fa-square-phone"></i>08125634647</p>
+          <div class="social-icons">
+            <a href="https://twitter.com/Jatzee4"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <a href="" download class="btn btn2">Download Cv</a>
+                  
+            </div>
+            <div class="contact-right">
+                <form action="https://jatto_i@yahoo.com" method="POST">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit </button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>made with <i class="fa-solid fa-heart"></i> By Isaac.
+        </p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"; 
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"; 
+        }
+    </script>
+</body>
+    </html>
