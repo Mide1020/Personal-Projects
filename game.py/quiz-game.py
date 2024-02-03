@@ -26,7 +26,7 @@ class QuizGame:
         selected_option = tk.StringVar()
         for i, option in enumerate(options, start=1):
             option_radio = tk.Radiobutton(root, text=f"{i}. {option}", variable=selected_option, value=str(i),
-                                           font=("Helvetica", 12), bg="#F9EBB2", anchor=tk.W)
+                                           font=("blue", 12), bg="skyblue", anchor=tk.W)
             option_radio.pack(anchor=tk.W)
 
         # Submit Button
